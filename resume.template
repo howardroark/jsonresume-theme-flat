@@ -58,6 +58,7 @@
 				<div class="phone">{{.}}</div>
 			</div>
 			{{/phone}}
+			{{#if website}}
 			{{#website}}
 			<div class="col-sm-6">
 				<strong>Website</strong>
@@ -66,6 +67,7 @@
 				</div>
 			</div>
 			{{/website}}
+			{{/if}}
 			</div>
 		</div>
 	</section>
